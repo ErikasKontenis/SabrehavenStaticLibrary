@@ -1,0 +1,166 @@
+<style>
+.npc-greetings {
+    font: bold 11px/14px Tahoma,sans-serif;
+    padding-top: 20px;
+}
+
+.npc-sounds {
+	color: #d14703;
+    font-weight: bold;
+	float: left;
+}
+
+.npc-sounds li:empty {
+	display: none;
+}
+
+.table.tbl-hover tr td:nth-child(1) {
+	width:20%
+}
+
+.table.tbl-hover tr td:nth-child(2) {
+	width:50%
+}
+
+.table.tbl-hover tr td:nth-child(3) {
+	width:30%
+}
+
+.container {
+	position: relative
+}
+
+.imageT {
+    height: 66px;
+    width: 66px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+.borderGuide {
+	float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 66px;
+    width: 66px;
+}
+
+.clear {
+    clear: both;
+    float: initial!important;
+}
+
+.npc-profile {
+	margin-top: -10px;
+}
+</style>
+<h2>Brengus</h2>
+<div class="npc-profile">
+	<div class="borderGuide container">
+		<div class="imageT" style="background-image: url('/outfiter2/outfit.php?a=132&b=0&c=79&d=57&e=57&f=95&h=3');"></div>
+	</div>
+	<div class="npc-greetings">"Be greeted."</div>
+</div>
+<div class="clear"></div>
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+<a href="#" onclick="toggle_visibility('foo');">Show position in map</a>
+<div id="foo" style="display: none;">
+	<iframe id="mapper" style="width: 98%;height:800px; margin-left: auto;margin-right: auto;" src="https://www.tibiaroyal.com/apps/n_map/?lang=en&cor=32634,32747,7,3&e=;32747,32634,7,9&no_buttons=1"></iframe>
+	<b>The map is not the original Tibianus map. Credits for the map for Tibia fansite: TibiaRoyal.com</b>
+</div>
+<h2>Trades</h2>
+<div style="float: left; width: 50%">
+	<span><b>Sell Offers</b></span>
+	<table class="table tbl-hover">
+	<tbody>
+		<tr class="yellow">
+			<td><b></b></td>
+			<td><b>Name</b></td>
+			<td><b>Price</b></td>
+		</tr>
+		<tr><td><a href="/item.php?name=battle_hammer"><img src="/itemSprites_792/3305.png" /></a></td><td><a href="/item.php?name=battle_hammer">a battle hammer</a></td><td>350 GP</td></tr>
+<tr><td><a href="/item.php?name=brass_armor"><img src="/itemSprites_792/3359.png" /></a></td><td><a href="/item.php?name=brass_armor">a brass armor</a></td><td>450 GP</td></tr>
+<tr><td><a href="/item.php?name=chain_armor"><img src="/itemSprites_792/3358.png" /></a></td><td><a href="/item.php?name=chain_armor">a chain armor</a></td><td>200 GP</td></tr>
+<tr><td><a href="/item.php?name=chain_helmet"><img src="/itemSprites_792/3352.png" /></a></td><td><a href="/item.php?name=chain_helmet">a chain helmet</a></td><td>52 GP</td></tr>
+<tr><td><a href="/item.php?name=dagger"><img src="/itemSprites_792/3267.png" /></a></td><td><a href="/item.php?name=dagger">a dagger</a></td><td>5 GP</td></tr>
+<tr><td><a href="/item.php?name=hand_axe"><img src="/itemSprites_792/3268.png" /></a></td><td><a href="/item.php?name=hand_axe">a hand axe</a></td><td>8 GP</td></tr>
+<tr><td><a href="/item.php?name=leather_armor"><img src="/itemSprites_792/3361.png" /></a></td><td><a href="/item.php?name=leather_armor">a leather armor</a></td><td>35 GP</td></tr>
+<tr><td><a href="/item.php?name=leather_helmet"><img src="/itemSprites_792/3355.png" /></a></td><td><a href="/item.php?name=leather_helmet">a leather helmet</a></td><td>12 GP</td></tr>
+<tr><td><a href="/item.php?name=mace"><img src="/itemSprites_792/3286.png" /></a></td><td><a href="/item.php?name=mace">a mace</a></td><td>90 GP</td></tr>
+<tr><td><a href="/item.php?name=rapier"><img src="/itemSprites_792/3272.png" /></a></td><td><a href="/item.php?name=rapier">a rapier</a></td><td>15 GP</td></tr>
+<tr><td><a href="/item.php?name=sabre"><img src="/itemSprites_792/3273.png" /></a></td><td><a href="/item.php?name=sabre">a sabre</a></td><td>35 GP</td></tr>
+<tr><td><a href="/item.php?name=spear"><img src="/itemSprites_792/3277.png" /></a></td><td><a href="/item.php?name=spear">a spear</a></td><td>10 GP</td></tr>
+<tr><td><a href="/item.php?name=steel_shield"><img src="/itemSprites_792/3409.png" /></a></td><td><a href="/item.php?name=steel_shield">a steel shield</a></td><td>240 GP</td></tr>
+<tr><td><a href="/item.php?name=sword"><img src="/itemSprites_792/3264.png" /></a></td><td><a href="/item.php?name=sword">a sword</a></td><td>85 GP</td></tr>
+<tr><td><a href="/item.php?name=throwing_star"><img src="/itemSprites_792/3287.png" /></a></td><td><a href="/item.php?name=throwing_star">a throwing star</a></td><td>50 GP</td></tr>
+<tr><td><a href="/item.php?name=wooden_shield"><img src="/itemSprites_792/3412.png" /></a></td><td><a href="/item.php?name=wooden_shield">a wooden shield</a></td><td>15 GP</td></tr>
+<tr><td><a href="/item.php?name=axe"><img src="/itemSprites_792/3274.png" /></a></td><td><a href="/item.php?name=axe">an axe</a></td><td>20 GP</td></tr>
+<tr><td><a href="/item.php?name=chain_legs"><img src="/itemSprites_792/3558.png" /></a></td><td><a href="/item.php?name=chain_legs">chain legs</a></td><td>80 GP</td></tr>
+
+	</tbody>
+	</table>
+</div>
+<div style="float: left; width: 50%">
+	<span><b>Buy Offers</b></span>
+	<table class="table tbl-hover">
+	<tbody>
+		<tr class="yellow">
+			<td><b></b></td>
+			<td><b>Name</b></td>
+			<td><b>Price</b></td>
+		</tr>
+		<tr><td><a href="/item.php?name=banana_staff"><img src="/itemSprites_792/3348.png" /></a></td><td><a href="/item.php?name=banana_staff">a banana staff</a></td><td>1000 GP</td></tr>
+<tr><td><a href="/item.php?name=bast_skirt"><img src="/itemSprites_792/3560.png" /></a></td><td><a href="/item.php?name=bast_skirt">a bast skirt</a></td><td>750 GP</td></tr>
+<tr><td><a href="/item.php?name=battle_axe"><img src="/itemSprites_792/3266.png" /></a></td><td><a href="/item.php?name=battle_axe">a battle axe</a></td><td>80 GP</td></tr>
+<tr><td><a href="/item.php?name=battle_hammer"><img src="/itemSprites_792/3305.png" /></a></td><td><a href="/item.php?name=battle_hammer">a battle hammer</a></td><td>120 GP</td></tr>
+<tr><td><a href="/item.php?name=battle_shield"><img src="/itemSprites_792/3413.png" /></a></td><td><a href="/item.php?name=battle_shield">a battle shield</a></td><td>95 GP</td></tr>
+<tr><td><a href="/item.php?name=beholder_helmet"><img src="/itemSprites_792/3408.png" /></a></td><td><a href="/item.php?name=beholder_helmet">a beholder helmet</a></td><td>2200 GP</td></tr>
+<tr><td><a href="/item.php?name=brass_armor"><img src="/itemSprites_792/3359.png" /></a></td><td><a href="/item.php?name=brass_armor">a brass armor</a></td><td>150 GP</td></tr>
+<tr><td><a href="/item.php?name=chain_armor"><img src="/itemSprites_792/3358.png" /></a></td><td><a href="/item.php?name=chain_armor">a chain armor</a></td><td>70 GP</td></tr>
+<tr><td><a href="/item.php?name=chain_helmet"><img src="/itemSprites_792/3352.png" /></a></td><td><a href="/item.php?name=chain_helmet">a chain helmet</a></td><td>17 GP</td></tr>
+<tr><td><a href="/item.php?name=charmers_tiara"><img src="/itemSprites_792/3407.png" /></a></td><td><a href="/item.php?name=charmers_tiara">a charmer's tiara</a></td><td>900 GP</td></tr>
+<tr><td><a href="/item.php?name=dagger"><img src="/itemSprites_792/3267.png" /></a></td><td><a href="/item.php?name=dagger">a dagger</a></td><td>2 GP</td></tr>
+<tr><td><a href="/item.php?name=feather_headdress"><img src="/itemSprites_792/3406.png" /></a></td><td><a href="/item.php?name=feather_headdress">a feather headdress</a></td><td>850 GP</td></tr>
+<tr><td><a href="/item.php?name=halberd"><img src="/itemSprites_792/3269.png" /></a></td><td><a href="/item.php?name=halberd">a halberd</a></td><td>400 GP</td></tr>
+<tr><td><a href="/item.php?name=hand_axe"><img src="/itemSprites_792/3268.png" /></a></td><td><a href="/item.php?name=hand_axe">a hand axe</a></td><td>4 GP</td></tr>
+<tr><td><a href="/item.php?name=horseman_helmet"><img src="/itemSprites_792/3405.png" /></a></td><td><a href="/item.php?name=horseman_helmet">a horseman helmet</a></td><td>280 GP</td></tr>
+<tr><td><a href="/item.php?name=hunting_spear"><img src="/itemSprites_792/3347.png" /></a></td><td><a href="/item.php?name=hunting_spear">a hunting spear</a></td><td>250 GP</td></tr>
+<tr><td><a href="/item.php?name=leather_armor"><img src="/itemSprites_792/3361.png" /></a></td><td><a href="/item.php?name=leather_armor">a leather armor</a></td><td>12 GP</td></tr>
+<tr><td><a href="/item.php?name=leather_helmet"><img src="/itemSprites_792/3355.png" /></a></td><td><a href="/item.php?name=leather_helmet">a leather helmet</a></td><td>4 GP</td></tr>
+<tr><td><a href="/item.php?name=leopard_armor"><img src="/itemSprites_792/3404.png" /></a></td><td><a href="/item.php?name=leopard_armor">a leopard armor</a></td><td>300 GP</td></tr>
+<tr><td><a href="/item.php?name=mace"><img src="/itemSprites_792/3286.png" /></a></td><td><a href="/item.php?name=mace">a mace</a></td><td>30 GP</td></tr>
+<tr><td><a href="/item.php?name=morning_star"><img src="/itemSprites_792/3282.png" /></a></td><td><a href="/item.php?name=morning_star">a morning star</a></td><td>90 GP</td></tr>
+<tr><td><a href="/item.php?name=plate_armor"><img src="/itemSprites_792/3357.png" /></a></td><td><a href="/item.php?name=plate_armor">a plate armor</a></td><td>400 GP</td></tr>
+<tr><td><a href="/item.php?name=rapier"><img src="/itemSprites_792/3272.png" /></a></td><td><a href="/item.php?name=rapier">a rapier</a></td><td>5 GP</td></tr>
+<tr><td><a href="/item.php?name=ripper_lance"><img src="/itemSprites_792/3346.png" /></a></td><td><a href="/item.php?name=ripper_lance">a ripper lance</a></td><td>500 GP</td></tr>
+<tr><td><a href="/item.php?name=sabre"><img src="/itemSprites_792/3273.png" /></a></td><td><a href="/item.php?name=sabre">a sabre</a></td><td>12 GP</td></tr>
+<tr><td><a href="/item.php?name=salamander_shield"><img src="/itemSprites_792/3445.png" /></a></td><td><a href="/item.php?name=salamander_shield">a salamander shield</a></td><td>280 GP</td></tr>
+<tr><td><a href="/item.php?name=sentinel_shield"><img src="/itemSprites_792/3444.png" /></a></td><td><a href="/item.php?name=sentinel_shield">a sentinel shield</a></td><td>120 GP</td></tr>
+<tr><td><a href="/item.php?name=short_sword"><img src="/itemSprites_792/3294.png" /></a></td><td><a href="/item.php?name=short_sword">a short sword</a></td><td>10 GP</td></tr>
+<tr><td><a href="/item.php?name=spear"><img src="/itemSprites_792/3277.png" /></a></td><td><a href="/item.php?name=spear">a spear</a></td><td>3 GP</td></tr>
+<tr><td><a href="/item.php?name=steel_helmet"><img src="/itemSprites_792/3351.png" /></a></td><td><a href="/item.php?name=steel_helmet">a steel helmet</a></td><td>190 GP</td></tr>
+<tr><td><a href="/item.php?name=steel_shield"><img src="/itemSprites_792/3409.png" /></a></td><td><a href="/item.php?name=steel_shield">a steel shield</a></td><td>80 GP</td></tr>
+<tr><td><a href="/item.php?name=sword"><img src="/itemSprites_792/3264.png" /></a></td><td><a href="/item.php?name=sword">a sword</a></td><td>25 GP</td></tr>
+<tr><td><a href="/item.php?name=templar_scytheblade"><img src="/itemSprites_792/3345.png" /></a></td><td><a href="/item.php?name=templar_scytheblade">a templar scytheblade</a></td><td>200 GP</td></tr>
+<tr><td><a href="/item.php?name=tribal_mask"><img src="/itemSprites_792/3403.png" /></a></td><td><a href="/item.php?name=tribal_mask">a tribal mask</a></td><td>250 GP</td></tr>
+<tr><td><a href="/item.php?name=tusk_shield"><img src="/itemSprites_792/3443.png" /></a></td><td><a href="/item.php?name=tusk_shield">a tusk shield</a></td><td>850 GP</td></tr>
+<tr><td><a href="/item.php?name=two_handed_sword"><img src="/itemSprites_792/3265.png" /></a></td><td><a href="/item.php?name=two_handed_sword">a two handed sword</a></td><td>450 GP</td></tr>
+<tr><td><a href="/item.php?name=wooden_shield"><img src="/itemSprites_792/3412.png" /></a></td><td><a href="/item.php?name=wooden_shield">a wooden shield</a></td><td>5 GP</td></tr>
+<tr><td><a href="/item.php?name=axe"><img src="/itemSprites_792/3274.png" /></a></td><td><a href="/item.php?name=axe">an axe</a></td><td>7 GP</td></tr>
+<tr><td><a href="/item.php?name=chain_legs"><img src="/itemSprites_792/3558.png" /></a></td><td><a href="/item.php?name=chain_legs">chain legs</a></td><td>25 GP</td></tr>
+<tr><td><a href="/item.php?name=crocodile_boots"><img src="/itemSprites_792/3556.png" /></a></td><td><a href="/item.php?name=crocodile_boots">crocodile boots</a></td><td>100 GP</td></tr>
+
+	</tbody>
+	</table>
+</div>
+<div class="clear"></div>
