@@ -11,3 +11,8 @@ The output is php files which are generated at ...\SabrehavenWwwLibriaryWorker\S
 The example of the generated library can be found in the Example folder. I also used strange way to draw the table of contents. For example, items.php has array of $files and $names object which I copy/pasted from my generated variable of ItemService.cs line 147-148. This library is designed to be used with ZnoteAAC but I bet that Znote would laugh from this php implementation :D 
 
 Also, it has a little code snippet in program.cs to generate json for otclient market.
+
+# Generated Examples
+![image](https://user-images.githubusercontent.com/33052216/213216007-83599eab-173d-466f-a2ed-ce277234ab04.png)
+![image](https://user-images.githubusercontent.com/33052216/213216425-bcff82f6-59e0-44c2-811c-9a064a5861dd.png)
+![image](https://user-images.githubusercontent.com/33052216/213216638-1ef9c741-3162-4abc-abf6-db40d1ac2f2b.png)
